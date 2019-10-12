@@ -3,7 +3,7 @@ body {
   font-size: 18px;
 }
 button {
-  background-color: lightblue;
+  background-color: #d0d0d0;
   border: 2px ridge rgb(153, 153, 153);
   border-radius: 10%;
   padding: 3px 9px;
@@ -14,7 +14,7 @@ button {
 }
 
 body {
-  background-color: #d873cb;
+  background-color: #b4d2e4c4;
 }
 
 .wrapper {
@@ -61,4 +61,14 @@ main {
 footer {
   grid-column: 1/21;
   grid-row: 19/21;
+}
+
+
+.hidden{
+  display: none;
+  z-index: 0;
+}
+
+.shown{
+  z-index: 10;
 }

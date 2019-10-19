@@ -1,5 +1,6 @@
 body {
   font-family: arial, sans-serif;
+  background-color: #b4d2e4c4;
   font-size: 18px;
 }
 button {
@@ -13,14 +14,10 @@ button {
   font-size: 0.8em;
 }
 
-body {
-  background-color: #b4d2e4c4;
-}
-
 .wrapper {
   display: grid;
   grid-template-columns: repeat(20, 1fr);
-  grid-template-rows: repeat(20, 4.88vh);
+  grid-template-rows: repeat(20, 5vh);
 }
 
 .wrapper > * {

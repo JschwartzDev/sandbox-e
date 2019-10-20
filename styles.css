@@ -1,6 +1,7 @@
+
 body {
   font-family: arial, sans-serif;
-  background-color: #b4d2e4c4;
+  color: #fff;
   font-size: 18px;
 }
 button {
@@ -53,6 +54,23 @@ header {
 main {
   grid-column: 4/21;
   grid-row: 3/19;
+  background-image: url('https://i.postimg.cc/HLdkY1kK/bg.png');
+  animation-name: background;
+  animation-duration: .4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes background {
+  from {background-color: red;}
+  to {background-color: orange;}
+  to {background-color: yellow;}
+  to {background-color: green;}
+  to {background-color: blue;}
+  to {background-color: indigo;}
+  to {background-color: violet;}
+  to {background-color: pink;}
+
 }
 
 footer {
@@ -68,4 +86,16 @@ footer {
 
 .shown{
   z-index: 10;
+}
+
+.form-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-div{
+  display: flex;
+  flex-direction: column;
 }
